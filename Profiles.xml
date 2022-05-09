@@ -1,0 +1,665 @@
+<Profiles>
+  <Profile name="Unknown" author="worstenbrood">
+    <Files/>
+  </Profile>
+  <Profile name="Huawei Ascend Mate 7" author="Stephen King">
+    <Files>
+      <File type="md5rsa" filetype="signature">00.MD5RSA.img</File>
+      <File type="crc" filetype="checksum">01.crc.img</File>
+      <File type="curver">02.curver.img</File>
+      <File type="verlist">03.verlist.img</File>
+      <File type="ptable">04.ptable.img</File>
+      <File type="xloader">05.xloader.img</File>
+      <File type="fastboot">06.fastboot.img</File>
+      <File type="fw_lmp3">07.fw_lmp3.img</File>
+      <File type="fw_hifi">08.fw_hifi.img</File>
+      <File type="teeos">09.teeos.img</File>
+      <File type="boot" partition="/dev/block/mmcblk0p13">10.boot.img</File>
+      <File type="recovery" partition="/dev/block/mmcblk0p14">11.recovery.img</File>
+      <File type="sensorhub" partition="/dev/block/mmcblk0p17">12.sensorhub.img</File>
+      <File type="cust" partition="/dev/block/mmcblk0p37">13.cust.img</File>
+      <File type="system" partition="/dev/block/mmcblk0p38">14.system.img</File>
+      <File type="cache" partition="/dev/block/mmcblk0p39">15.cache.img</File>
+      <File type="userdata" partition="/dev/block/mmcblk0p40">16.userdata.img</File>
+      <File type="dts" partition="/dev/block/mmcblk0p20">17.dts.img</File>
+      <File type="modemnvm_update" partition="/dev/block/mmcblk0p29">18.modemnvm_update.img</File>
+      <File type="modemimage" partition="/dev/block/mmcblk0p26">19.modem.img</File>
+      <File type="modem_dsp" partition="/dev/block/mmcblk0p27">20.modem_dsp.img</File>
+      <File type="3rdmodem" partition="/dev/block/mmcblk0p31">21.3rdmodem.img</File>
+    </Files>
+  </Profile>
+  <Profile name="Huawei Ascend P6" author="Ngamyarthar-MpxTeam">
+    <Files>
+    <File type="md5rsa" filetype="signature">00.md5rsa.img</File>
+	  <File type="crc" filetype="checksum">01.crc.img</File>
+	  <File type="curver">02.curver.txt</File>
+	  <File type="verlist">03.verlist.txt</File>
+	  <File type="efi">04.efi.img</File>
+	  <File type="modemimage" partition="/dev/block/mmcblk0p13">05.modemimage.img</File>
+	  <File type="batt">06.batt.img</File>
+	  <File type="fastboot">07.fastboot.img</File>
+	  <File type="recovery" partition="/dev/block/mmcblk0p11">08.recovery.img</File>
+	  <File type="boot" partition="/dev/block/mmcblk0p12">09.boot.img</File>
+	  <File type="system" partition="/dev/block/mmcblk0p16">10.system.img</File>
+      <File type="cache" partition="/dev/block/mmcblk0p17">11.cache.img</File>
+      <File type="cust" partition="/dev/block/mmcblk0p18">12.cust.img</File>
+      <File type="userdata" partition="/dev/block/mmcblk0p19">13.userdata.img</File>
+      </Files>
+  </Profile>
+  <Profile name="Huawei Ascend Mate" author="Ngamyarthar-MpxTeam">
+    <Files>
+      <File type="md5rsa" filetype="signature">00.md5rsa.img</File>
+	  <File type="crc" filetype="checksum">01.crc.img</File>
+	  <File type="curver">02.curver.img</File>
+	  <File type="verlist">03.verlist.txt</File>
+	  <File type="efi">04.efi.img</File>
+	  <File type="modemimage" partition="/dev/block/mmcblk0p13">05.modemimage.img</File>
+	  <File type="batt">06.batt.img</File>
+	  <File type="fastboot">07.fastboot.img</File>
+	  <File type="logo">08.logo.img</File>
+	  <File type="recovery" partition="/dev/block/mmcblk0p11">09.recovery.img</File>
+	  <File type="boot" partition="/dev/block/mmcblk0p12">10.boot.img</File>
+	  <File type="system" partition="/dev/block/mmcblk0p16">11.system.img</File>
+	  <File type="cache" partition="/dev/block/mmcblk0p17">>12.cache.img</File>
+      <File type="cust" partition="/dev/block/mmcblk0p18">13.cust.img</File>
+      <File type="userdata" partition="/dev/block/mmcblk0p19">14.userdata.img</File>
+      </Files>
+  </Profile>
+  <Profile name="Huawei Ascend P1(U9200-1)" author="Ngamyarthar-MpxTeam">
+    <Files>
+      <File type="md5rsa" filetype="signature">00.md5rsa.img</File>
+	  <File type="crc" filetype="checksum">01.crc.img</File>
+	  <File type="curver">02.curver.img</File>
+	  <File type="verlist">03.verlist.txt</File>
+	  <File type="slb">04.slb.img</File>
+	  <File type="psi">05.psi.img</File>
+	  <File type="hwt">06.hwt.img</File>
+	  <File type="aen">07.aen.img</File>
+	  <File type="efi">08.efi.img</File>
+	  <File type="batt">09.batt.img</File>
+	  <File type="bootloader" partition="/dev/block/platform/omap/omap_hsmmc.1/by-name/bootloader">10.bootloader.img</File>
+	  <File type="recovery" partition="/dev/block/platform/omap/omap_hsmmc.1/by-name/recovery" >11.recovery.img</File>
+	  <File type="boot" partition="/dev/block/platform/omap/omap_hsmmc.1/by-name/boot">12.boot.img</File>
+      <File type="system" partition="/dev/block/platform/omap/omap_hsmmc.1/by-name/system">13.system.img</File>
+      <File type="cache" partition="/dev/block/platform/omap/omap_hsmmc.1/by-name/cache">14.cache.img</File>
+	  <File type="reserved1">15.reserved1.img</File>
+	  <File type="cust" partition="/dev/block/platform/omap/omap_hsmmc.1/by-name/cust">16.cust.img</File>
+      <File type="userdata" partition="/dev/block/platform/omap/omap_hsmmc.1/by-name/userdata">17.userdata.img</File>
+      <File type="logo">18.logo.img</File>
+      </Files>
+  </Profile>
+  <Profile name="Huawei G700,G610-U00+T00" author="Ngamyarthar-MpxTeam">
+		<Files>
+			<File type="md5rsa" filetype="signature">00.md5rsa.img</File>
+			<File type="crc" filetype="checksum">01.crc.img</File>
+			<File type="curver">02.curver.img</File>
+			<File type="verlist">03.verlist.txt</File>
+			<File sequence="00600000">04.mbr.img</File>
+			<File sequence="00680000">05.ebr1.img</File>
+			<File sequence="03D00000">06.ebr2.img</File>
+			<File sequence="02720000">07.uboot.img</File>
+			<File sequence="02780000" partition="/dev/bootimg">08.bootimg.img</File>
+			<File sequence="02D80000" partition="/dev/recovery">09.recovery.img</File>
+			<File sequence="03380000">10.secro.img</File>
+			<File sequence="03A00000">11.logo.img</File>
+			<File sequence="04780000" partition="/dev/block/mmcblk0p5">12.system.img</File>
+			<File sequence="44780000" partition="/dev/block/mmcblk0p6">13.cust.img</File>
+			<File sequence="50780000" partition="/dev/block/mmcblk0p7">14.cache.img</File>
+			<File sequence="58580000" partition="/dev/block/mmcblk0p8">15.userdata.img</File>
+      </Files>
+	</Profile> 
+  <Profile name="Huawei G610-C00,G520-0000,G510,C8813D,C8813" author="Ngamyarthar-MpxTeam">
+		<Files>
+			<File sequence="FE000000" filetype="signature">00.signature</File>
+			<File sequence="FF000000" filetype="checksum">01.crc</File>
+			<File sequence="E8000000">02.boot_version.txt</File>
+			<File sequence="D2000000">03.file3.img</File>
+			<File sequence="F0000000">04.file4.img</File>
+			<File sequence="E2000000">05.file5.img</File>
+			<File sequence="F1000000">06.file6.img</File>
+			<File sequence="E0000000">07.file7.img</File>
+			<File sequence="E9000000">08.file8.img</File>
+			<File sequence="EE000000">09.file9.img</File>
+			<File sequence="EF000000">10.file10.img</File>
+			<File sequence="FB000000">11.recoveryhd.img</File>
+			<File sequence="40000000" partition="/dev/block/mmcblk0p13">12.recovery.img</File>
+			<File sequence="F9000000">13.systemhd.img</File>
+			<File sequence="00000000" partition="/dev/block/mmcblk0p17">14.system.img</File>
+			<File sequence="FA000000">15.userdatahd.img</File>
+			<File sequence="30000000">16.userdata.img</File>
+			<File sequence="E4000000">17.splash.raw565</File>
+			<File sequence="ED000000">18.file18.img</File>
+			<File sequence="F6000000">19.file19.img</File>
+            <File sequence="70000000" partition="/dev/block/mmcblk0p16">20.cust.img</File>
+			<File sequence="F3000000">21.file21.img</File>
+			<File sequence="E3000000">22.file22.img</File>
+			<File sequence="F4000000">23.boothd.img</File>
+	        <File sequence="FC000000" partition="/dev/block/mmcblk0p12">24.boot.img</File>
+	        <File sequence="EA000000">25.file25.img</File>
+	        <File sequence="80000000" partition="/dev/block/mmcblk0p03">26.baseband.img</File>
+            <File sequence="EC000000">27.version.txt</File>
+      </Files>
+	</Profile>
+	<Profile name="Huawei G520-5000" author="Ngamyarthar-MpxTeam">
+    <Files>
+      <File type="md5rsa" filetype="signature">00.md5rsa.img</File>
+	  <File type="crc" filetype="checksum">01.crc.img</File>
+	  <File type="curver">02.curver.img</File>
+	  <File type="verlist">03.verlist.txt</File>
+	  <File type="mbr">04.mbr.img</File>
+	  <File type="ebr1">05.ebr1.img</File>
+	  <File type="ebr2">06.ebr2.img</File>
+	  <File type="uboot">07.uboot.img</File>
+	  <File type="bootimg" partition="/dev/bootimg">08.bootimg.img</File>
+	  <File type="recovery" partition="/dev/recovery">09.recovery.img</File>
+	  <File type="secro">10.secro.img</File>
+	  <File type="logo">11.logo.img</File>
+	  <File type="system" partition="/dev/block/mmcblk0p5">12.system.img</File>
+      <File type="cache" partition="/dev/block/mmcblk0p6">13.cache.img</File>
+      <File type="userdata" partition="/dev/block/mmcblk0p7">14.userdata.img</File>
+      </Files>
+  </Profile>
+	 <Profile name="Huawei G330(C8825D,U8825D,...)" author="Ngamyarthar-MpxTeam">
+		<Files>
+			<File sequence="FE000000" filetype="signature">00.signature.img</File>
+			<File sequence="FF000000" filetype="checksum">01.crcimg</File>
+			<File sequence="E8000000">02.boot_version.txt</File>
+			<File sequence="F0000000">03.file3.img</File>
+			<File sequence="E2000000">04.file4.img</File>
+			<File sequence="F1000000">05.file5.img</File>
+			<File sequence="E0000000">06.file6.img</File>
+			<File sequence="E9000000">07.file7.img</File>
+			<File sequence="EE000000">08.file8.img</File>
+			<File sequence="EF000000">09.file9.img</File>
+			<File sequence="FB000000">10.recoveryhd.img</File>
+			<File sequence="40000000" partition="/dev/block/mmcblk0p13">11.recovery.img</File>
+			<File sequence="F9000000">12.systemhd.img</File>
+			<File sequence="00000000" partition="/dev/block/mmcblk0p17">13.system.img</File>
+			<File sequence="FA000000">14.userdatahd.img</File>
+			<File sequence="30000000">15.userdata.img</File>
+			<File sequence="E4000000">16.splash.raw565</File>
+			<File sequence="ED000000">17.file17.img</File>
+			<File sequence="F6000000">18.file18.img</File>
+            <File sequence="70000000" partition="/dev/block/mmcblk0p16">19.cust.img</File>
+			<File sequence="F3000000">20.file20.img</File>
+			<File sequence="E3000000">21.file21.img</File>
+			<File sequence="F4000000">22.boothd.img</File>
+	        <File sequence="FC000000" partition="/dev/block/mmcblk0p12">23.boot.img</File>
+	        <File sequence="EA000000">24.file24.img</File>
+	        <File sequence="80000000" partition="/dev/block/mmcblk0p03">25.baseband.img</File>
+            <File sequence="EC000000">26.version.txt</File>
+      </Files>
+	</Profile>
+	<Profile name="Huawei (C8812,...)" author="Ngamyarthar-MpxTeam">
+		<Files>
+			<File sequence="FE000000" filetype="signature">00.signature.img</File>
+			<File sequence="FF000000" filetype="checksum">01.crcimg</File>
+			<File sequence="E8000000">02.boot_version.txt</File>
+			<File sequence="F0000000">03.file3.img</File>
+			<File sequence="E2000000">04.file4.img</File>
+			<File sequence="F1000000">05.file5.img</File>
+			<File sequence="E0000000">06.file6.img</File>
+			<File sequence="E9000000">07.file7.img</File>
+			<File sequence="EE000000">08.file8.img</File>
+			<File sequence="EF000000">09.file9.img</File>
+			<File sequence="FB000000">10.recoveryhd.img</File>
+			<File sequence="40000000" partition="/dev/block/mmcblk0p16">11.recovery.img</File>
+			<File sequence="F9000000">12.systemhd.img</File>
+			<File sequence="00000000" partition="/dev/block/mmcblk0p12">13.system.img</File>
+			<File sequence="FA000000">14.userdatahd.img</File>
+			<File sequence="30000000">15.userdata.img</File>
+			<File sequence="E4000000">16.splash.raw565</File>
+			<File sequence="ED000000">17.file17.img</File>
+			<File sequence="F6000000">18.file18.img</File>
+            <File sequence="70000000">19.cust.img</File>
+			<File sequence="F3000000">20.file20.img</File>
+			<File sequence="E3000000">21.file21.img</File>
+			<File sequence="F4000000">22.boothd.img</File>
+	        <File sequence="FC000000" partition="/dev/block/mmcblk0p15">23.boot.img</File>
+	        <File sequence="EA000000">24.file24.img</File>
+	        <File sequence="80000000">25.baseband.img</File>
+            <File sequence="EC000000">26.version.txt</File>
+      </Files>
+	</Profile>
+  <Profile name="Huawei U8818,U8815" author="Ngamyarthar-MpxTeam">
+		<Files>
+			<File sequence="FE000000" filetype="signature">00.md5rsa.img</File>
+			<File sequence="FF000000" filetype="checksum">01.crc.img</File>
+			<File sequence="D2000000">02.file3.img</File>
+			<File sequence="E8000000">03.boot_version.txt</File>
+			<File sequence="F0000000">04.file4.img</File>
+			<File sequence="E2000000">05.file5.img</File>
+			<File sequence="F1000000">06.file6.img</File>
+			<File sequence="E0000000">07.file7.img</File>
+			<File sequence="E9000000">08.file8.img</File>
+			<File sequence="EE000000">09.file9.img</File>
+			<File sequence="EF000000">10.file10.img</File>
+			<File sequence="FB000000">11.recoveryhd.img</File>
+			<File sequence="40000000" partition="/dev/block/mmcblk0p16">12.recovery.img</File>
+			<File sequence="F9000000">13.systemhd.img</File>
+			<File sequence="00000000" partition="/dev/block/mmcblk0p12">14.system.img</File>
+			<File sequence="FA000000">15.userdatahd.img</File>
+			<File sequence="30000000" partition="/dev/block/mmcblk0p13">16.userdata.img</File>
+			<File sequence="E4000000">17.splash.raw565</File>
+			<File sequence="ED000000">18.file18.img</File>
+			<File sequence="F6000000">19.file19.img</File>
+            <File sequence="70000000">20.cust.img</File>
+			<File sequence="F3000000">21.file21.img</File>
+			<File sequence="E3000000">22.file22.img</File>
+			<File sequence="F4000000">23.boothd.img</File>
+	        <File sequence="FC000000" partition="/dev/block/mmcblk0p15">24.boot.img</File>
+	        <File sequence="EA000000">25.file25.img</File>
+	        <File sequence="80000000">26.file26.img</File>
+            <File sequence="EC000000">27.version.txt</File>
+      </Files>
+	</Profile>
+	<Profile name="Huawei U8661,Y210" author="Ngamyarthar-MpxTeam">
+		<Files>
+			<File sequence="FD000000" filetype="signature">00.md5rsa.img</File>
+			<File sequence="FF000000" filetype="checksum">01.crc.img</File>
+			<File sequence="E8000000">02.boot_verlist.txt</File>
+			<File sequence="F0000000">03.file03.img</File>
+			<File sequence="E2000000">04.file04.img</File>
+			<File sequence="F1000000">05.file05.img</File>
+			<File sequence="E0000000">06.file06.img</File>
+			<File sequence="E9000000">07.file07.img</File>
+			<File sequence="E1000000">08.file08.img</File>
+			<File sequence="FB000000">09.recoveryhd.img</File>
+			<File sequence="40000000" partition="/dev/block/mmcblk0p16">10.recovery.img</File>
+			<File sequence="F9000000">11.systemhd.img</File>
+			<File sequence="00000000" partition="/dev/block/mmcblk0p12">12.system.img</File>
+			<File sequence="FA000000">13.file13.img</File>
+			<File sequence="30000000">14.file14.img</File>
+			<File sequence="E4000000">15.file15.img</File>
+			<File sequence="ED000000">16.file16.img</File>
+			<File sequence="F6000000">17.file17.img</File>
+			<File sequence="70000000">18.file18.img</File>
+			<File sequence="F3000000">19.file19.img</File>
+            <File sequence="E3000000">20.file20.img</File>
+			<File sequence="F4000000">21.boothd.img</File>
+			<File sequence="FC000000" partition="/dev/block/mmcblk0p15">22.boot.img</File>
+			<File sequence="EA000000">23.file23.img</File>
+	        <File sequence="F2000000">24.file24.img</File>
+	        <File sequence="20000000">25.file25.img</File>
+	        <File sequence="EC000000">26.verlist.txt</File>
+      </Files>
+	</Profile>
+	<Profile name="Huawei T9200" author="Ngamyarthar-MpxTeam">
+    <Files>
+      <File type="md5rsa" filetype="signature">00.md5rsa.img</File>
+	  <File type="crc" filetype="checksum">01.crc.img</File>
+	  <File type="curver">02.curver.img</File>
+	  <File type="verlist">03.verlist.txt</File>
+	  <File type="bqfs">04.bqfs.img</File>
+	  <File type="efi">05.efi.img</File>
+	  <File type="logo">06.logo.img</File>
+	  <File type="bootloader">07.bootloader.img</File>
+	  <File type="recovery" partition="/dev/block/platform/omap/omap_hsmmc.1/by-name/boot">08.recovery.img</File>
+	  <File type="boot" partition="/dev/block/platform/omap/omap_hsmmc.1/by-name/recovery">09.boot.img</File>
+	  <File type="system" partition="/dev/block/platform/omap/omap_hsmmc.1/by-name/system">10.system.img</File>
+	  <File type="cust">11.cust.img</File>
+      <File type="userdata" partition="/dev/block/platform/omap/omap_hsmmc.1/by-name/userdata">12.userdata.img</File>
+      </Files>
+  </Profile>
+	<Profile name="Huawei T8951,T8833" author="Ngamyarthar-MpxTeam">
+    <Files>
+      <File type="crcmd5" filetype="signature">00.crcmd5.img</File>
+	  <File type="crc" filetype="checksum">01.crc.img</File>
+	  <File type="curver">02.curver.img</File>
+	  <File type="verlist">03.verlist.txt</File>
+	  <File type="mbr">04.mbr.img</File>
+	  <File type="ebr1">05.ebr1.img</File>
+	  <File type="uboot">06.uboot.img</File>
+	  <File type="bootimg" partition="/dev/bootimg">07.bootimg.img</File>
+	  <File type="recovery" partition="/dev/recovery">08.recovery.img</File>
+	  <File type="secro">09.secro.img</File>
+	  <File type="logo">10.logo.img</File>
+	  <File type="system" partition="/dev/block/mmcblk0p3">11.system.img</File>
+	  <File type="cache" partition="/dev/block/mmcblk0p4">12.cache.img</File>
+      <File type="userdata" partition="/dev/block/mmcblk0p5">13.userdata.img</File>
+      <File type="cust">14.cust.img</File>
+      </Files>
+  </Profile>
+  <Profile name="Huawei T8830Pro" author="Ngamyarthar-MpxTeam">
+    <Files>
+      <File type="crcmd5" filetype="signature">00.crcmd5.img</File>
+	  <File type="crc" filetype="checksum">01.crc.img</File>
+	  <File type="verlist">02.verlist.txt</File>
+	  <File type="mbr">03.mbr.img</File>
+	  <File type="ebr1">04.ebr1.img</File>
+	  <File type="ebr2">05.ebr2.img</File>
+	  <File type="uboot">06.uboot.img</File>
+	  <File type="bootimg" partition="/dev/bootimg">07.bootimg.img</File>
+	  <File type="recovery" partition="/dev/recovery">08.recovery.img</File>
+	  <File type="secro">09.secro.img</File>
+	  <File type="logo">10.logo.img</File>
+	  <File type="system" partition="/dev/block/mmcblk0p3">11.system.img</File>
+      <File type="cache" partition="/dev/block/mmcblk0p4">12.cache.img</File>
+      <File type="userdata" partition="/dev/block/mmcblk0p5">13.userdata.img</File>
+      </Files>
+  </Profile>
+    <Profile name="Huawei T8620" author="Ngamyarthar-MpxTeam">
+    <Files>
+      <File type="crcmd5" filetype="signature">00.crcmd5.img</File>
+	  <File type="crc" filetype="checksum">01.crc.img</File>
+	  <File type="verlist">02.verlist.txt</File>
+	  <File type="mbr">03.mbr.img</File>
+	  <File type="ebr1">04.ebr1.img</File>
+	  <File type="ebr2">05.ebr2.img</File>
+	  <File type="uboot">06.uboot.img</File>
+	  <File type="bootimg" partition="/dev/bootimg">07.bootimg.img</File>
+	  <File type="recovery" partition="/dev/recovery">08.recovery.img</File>
+	  <File type="secro">09.secro.img</File>
+	  <File type="logo">10.logo.img</File>
+	  <File type="system" partition="/dev/block/mmcblk0p6">11.system.img</File>
+      <File type="cache" partition="/dev/block/mmcblk0p2">12.cache.img</File>
+      <File type="userdata" partition="/dev/block/mmcblk0p3">13.userdata.img</File>
+      </Files>
+  </Profile>
+  <Profile name="Huawei C8810,C8500s" author="Ngamyarthar-MpxTeam">
+		<Files>
+			<File sequence="F3000000" filetype="signature">file00.img</File>
+			<File sequence="F4000000" filetype="checksum">file01.img</File>
+			<File sequence="F6000000">file02.img</File>
+			<File sequence="F0000000">file03.img</File>
+			<File sequence="E0000000">file04.img</File>
+			<File sequence="F2400000">file05.img</File>
+			<File sequence="F2500000">file06.img</File>
+			<File sequence="F6100000">file07.img</File>
+			<File sequence="C0000000">file08.img</File>
+			<File sequence="20000000">file09.img</File>
+			<File sequence="F2000000">file10.img</File>
+			<File sequence="FB000000">file11.img</File>
+			<File sequence="10000000">file12.img</File>
+			<File sequence="F5000000">file13.img</File>
+			<File sequence="30000000">file14.img</File>
+			<File sequence="FD000000">file15.img</File>
+			<File sequence="40000000">file16.img</File>
+			<File sequence="FF000000">file17.img</File>
+			<File sequence="60000000">file18.img</File>
+			<File sequence="FE000000">file19.img</File>
+            <File sequence="50000000">file20.img</File>
+			<File sequence="F2900000">file21.img</File>
+			<File sequence="B0000000">file22.img</File>
+			<File sequence="F7000000">file23.img</File>
+	        <File sequence="F1000000">file24.img</File>
+	        <File sequence="D0000000">file25.img</File>
+	        <File sequence="F8000000">file26.img</File>
+            <File sequence="F9000000">file27.img</File>
+      </Files>
+	</Profile>
+  <Profile name="Huawei MediaPad 10 FHD" author="XXX-Man@4pda.ru">
+    <Files>
+      <File type="md5rsa" filetype="signature">md5rsa.img</File>
+      <File type="crc" filetype="checksum">crc.img</File>
+      <File type="round" partition="/dev/block/mmcblk0p2">round.img</File>
+      <File type="oeminfo" partition="/dev/block/mmcblk0p6">oeminfo.img</File>
+      <File type="system" partition="/dev/block/mmcblk0p16">system.img</File>
+      <File type="cache" partition="/dev/block/mmcblk0p15">cache.img</File>
+      <File type="logo" partition="/dev/block/mmcblk0p7">logo.img</File>
+      <File type="cust" partition="/dev/block/mmcblk0p17">cust.img</File>
+      <File type="userdata" partition="/dev/block/mmcblk0p18">userdata.img</File>
+      <File type="boot" partition="/dev/block/mmcblk0p11">boot.img</File>
+      <File type="recovery" partition="/dev/block/mmcblk0p10">recovery.img</File>
+    </Files>
+  </Profile>
+  <Profile name="Huawei G526" author="Roman Dmitriev">
+    <Files>
+      <File sequence="FE000000" filetype="signature">00.signature</File>
+      <File sequence="FF000000" filetype="checksum">01.crc</File>
+      <File sequence="E8000000">02.updatable_boot_version.txt</File>
+      <File sequence="EA000000">03.updatable_versions.txt</File>
+      <File sequence="C2000000" partition="/dev/block/mmcblk0p4">04.rpm.bin</File>
+      <File sequence="C3000000" partition="/dev/block/mmcblk0p5">05.tz.bin</File>
+      <File sequence="C4000000" partition="/dev/block/mmcblk0p3">06.sbl3.bin</File>
+      <File sequence="C5000000" partition="/dev/block/mmcblk0p2">07.sbl2.bin</File>
+      <File sequence="C6000000" partition="/dev/block/mmcblk0p1">08.sbl1.bin</File>
+      <File sequence="C1000000" partition="/dev/block/mmcblk0p13">09.modem.img</File>
+      <File sequence="EE000000" partition="/dev/block/mmcblk0p10">10.modemst1.bin</File>
+      <File sequence="EF000000" partition="/dev/block/mmcblk0p11">11.modemst2.bin</File>
+      <File sequence="EC000000">12.current_version.txt</File>
+      <File sequence="E9000000">13.current_boot.txt</File>
+      <File sequence="E3000000" partition="/dev/block/mmcblk0p6">14.aboot.bin</File>
+      <File sequence="40000000" partition="/dev/block/mmcblk0p14">15.recovery.bin</File>
+      <File sequence="00000000" partition="/dev/block/mmcblk0p24">16.system.img</File>
+      <File sequence="FC000000" partition="/dev/block/mmcblk0p21">17.boot.bin</File>
+      <File sequence="30000000" partition="/dev/block/mmcblk0p25">18.userdata.img</File>
+      <File sequence="50000000" partition="/dev/block/mmcblk0p23">19.cache.img</File>
+      <File sequence="70000000" partition="/dev/block/mmcblk0p22">20.cust.img</File>
+      <File sequence="C7000000" partition="/dev/block/mmcblk0p18">21.persist.img</File>
+    </Files>
+  </Profile>
+  <Profile name="Huawei MediaPad X1 7.0 (7D-503L)" author="David Bakhmach">
+    <File type="md5rsa" filetype="signature">MD5RSA.img</File>
+    <File type="crc" filetype="checksum">CRC.img</File>
+    <File type="mcuimage" partition="/dev/block/mmcblk0p1">MCUIMAGE.img</File>
+    <File type="teeos" partition="/dev/block/mmcblk0p2">TEEOS.img</File>
+    <File type="log" partition="/dev/block/mmcblk0p3">LOG.img</File>
+    <File type="round" partition="/dev/block/mmcblk0p4">ROUND.img</File>
+    <File type="fastboot1" partition="/dev/block/mmcblk0p5">FASTBOOT1.img</File>
+    <File type="fastboot2" partition="/dev/block/mmcblk0p5">FASTBOOT2.img</File>
+    <File type="secureboot" partition="/dev/block/mmcblk0p6">SECUREBOOT.img</File>
+    <File type="misc" partition="/dev/block/mmcblk0p7">MISC.img</File>
+    <File type="modemnvbkup" partition="/dev/block/mmcblk0p8">MODEMNVBKUP.img</File>
+    <File type="ptable" partition="/dev/block/mmcblk0p9">PTABLE.img</File>
+    <File type="oeminfo" partition="/dev/block/mmcblk0p10">OEMINFO.img</File>
+    <File type="vrcb" partition="/dev/block/mmcblk0p11">VRCB.img</File>
+    <File type="logo" partition="/dev/block/mmcblk0p12">LOGO.img</File>
+    <File type="lowpower" partition="/dev/block/mmcblk0p13">LOWPOWER.img</File>
+    <File type="modemnvm1" partition="/dev/block/mmcblk0p14">MODEMNVM1.img</File>
+    <File type="modemnvm2" partition="/dev/block/mmcblk0p15">MODEMNVM2.img</File>
+    <File type="modemimage" partition="/dev/block/mmcblk0p16">MODEMIMAGE.img</File>
+    <File type="dsp" partition="/dev/block/mmcblk0p17">DSP.img</File>
+    <File type="hifi" partition="/dev/block/mmcblk0p18">HIFI.img</File>
+    <File type="modemlog" partition="/dev/block/mmcblk0p19">MODEMLOG.img</File>
+    <File type="boot" partition="/dev/block/mmcblk0p20">BOOT.img</File>
+    <File type="recovery" partition="/dev/block/mmcblk0p21">RECOVERY.img</File>
+    <File type="cache" partition="/dev/block/mmcblk0p22">CACHE.img</File>
+    <File type="userdata" partition="/dev/block/mmcblk0p23">USERDATA.img</File>
+    <File type="hisitest0" partition="/dev/block/mmcblk0p24">HISITEST0.img</File>
+    <File type="hisitest1" partition="/dev/block/mmcblk0p25">HISITEST1.img</File>
+    <File type="hisitest2" partition="/dev/block/mmcblk0p26">HISITEST2.img</File>
+    <File type="system" partition="/dev/block/mmcblk0p27">SYSTEM.img</File>
+    <File type="cust" partition="/dev/block/mmcblk0p28">CUST.img</File>
+    <File type="data" partition="/dev/block/mmcblk0p29">DATA.img</File>
+  </Profile>
+  <Profile name="Huawei MediaPad M2 8.0 (M2-802L)" author="The Beast in Black">
+    <Files>
+      <File type="sha256rsa" filetype="signature">SHA256RSA.img</File>
+      <File type="crc" filetype="checksum">CRC.img</File>
+      <File type="vrl" partition="/dev/block/mmcblk0p1">VRL.img</File>
+      <File type="vrl_backup" partition="/dev/block/mmcblk0p2">VRL_BACKUP.img</File>
+      <File type="mcuimage" partition="/dev/block/mmcblk0p3">MCUIMAGE.img</File>
+      <File type="reserved0" partition="/dev/block/mmcblk0p4">RESERVED0.img</File>
+      <File type="fastboot" partition="/dev/block/mmcblk0p5">FASTBOOT.img</File>
+      <File type="modemnvm_factory" partition="/dev/block/mmcblk0p6">MODEMNVM_FACTORY.img</File>
+      <File type="nvme" partition="/dev/block/mmcblk0p7">NVME.img</File>
+      <File type="oeminfo" partition="/dev/block/mmcblk0p8">OEMINFO.img</File>
+      <File type="splash" partition="/dev/block/mmcblk0p9">SPLASH.img</File>
+      <File type="modemnvm_backup" partition="/dev/block/mmcblk0p10">MODEMNVM_BACKUP.img</File>
+      <File type="modemnvm_img" partition="/dev/block/mmcblk0p11">MODEMNVM_IMG.img</File>
+      <File type="modemnvm_system" partition="/dev/block/mmcblk0p12">MODEMNVM_SYSTEM.img</File>
+      <File type="securetystorage" partition="/dev/block/mmcblk0p13">SECURETYSTORAGE.img</File>
+      <File type="3rdmodemnvm" partition="/dev/block/mmcblk0p14">3RDMODEMNVM.img</File>
+      <File type="3rdmodemnvmback" partition="/dev/block/mmcblk0p15">3RDMODEMNVMBACK.img</File>
+      <File type="reserved1" partition="/dev/block/mmcblk0p16">RESERVED1.img</File>
+      <File type="modem_om" partition="/dev/block/mmcblk0p17">MODEM_OM.img</File>
+      <File type="splash2" partition="/dev/block/mmcblk0p18">SPLASH2.img</File>
+      <File type="misc" partition="/dev/block/mmcblk0p19">MISC.img</File>
+      <File type="modemnvm_update" partition="/dev/block/mmcblk0p20">MODEMNVM_UPDATE.img</File>
+      <File type="recovery2" partition="/dev/block/mmcblk0p21">RECOVERY2.img</File>
+      <File type="reserved2" partition="/dev/block/mmcblk0p22">RESERVED2.img</File>
+      <File type="teeos" partition="/dev/block/mmcblk0p23">TEEOS.img</File>
+      <File type="trustfirmware" partition="/dev/block/mmcblk0p24">TRUSTFIRMWARE.img</File>
+      <File type="sensorhub" partition="/dev/block/mmcblk0p25">SENSORHUB.img</File>
+      <File type="hifi" partition="/dev/block/mmcblk0p26">HIFI.img</File>
+      <File type="boot" partition="/dev/block/mmcblk0p27">BOOT.img</File>
+      <File type="recovery" partition="/dev/block/mmcblk0p28">RECOVERY.img</File>
+      <File type="dtimage" partition="/dev/block/mmcblk0p29">DTIMAGE.img</File>
+      <File type="modem" partition="/dev/block/mmcblk0p30">MODEM.img</File>
+      <File type="modem_dsp" partition="/dev/block/mmcblk0p31">MODEM_DSP.img</File>
+      <File type="dfx" partition="/dev/block/mmcblk0p32">DFX.img</File>
+      <File type="3rdmodem" partition="/dev/block/mmcblk0p33">3RDMODEM.img</File>
+      <File type="cache" partition="/dev/block/mmcblk0p34">CACHE.img</File>
+      <File type="hisitest0" partition="/dev/block/mmcblk0p35">HISITEST0.img</File>
+      <File type="hisitest1" partition="/dev/block/mmcblk0p36">HISITEST1.img</File>
+      <File type="hisitest2" partition="/dev/block/mmcblk0p37">HISITEST2.img</File>
+      <File type="system" partition="/dev/block/mmcblk0p38">SYSTEM.img</File>
+      <File type="cust" partition="/dev/block/mmcblk0p39">CUST.img</File>
+      <File type="userdata" partition="/dev/block/mmcblk0p40">USERDATA.img</File>
+      <File type="xloader">XLOADER.img</File>
+      <File type="efi">EFI.img</File>
+      <File type="curver">CURVER.img</File>
+      <File type="verlist">VERLIST.img</File>
+    </Files>
+  </Profile>
+  <Profile name="Huawei Ascend P8 (GRA-L09)" author="Nexolight">
+    <Files>
+      <File type="md5rsa" filetype="signature">00.MD5RSA.img</File>
+      <File type="crc" filetype="checksum">01.crc.img</File>
+      <File type="3rdmodem" partition="/dev/block/mmcblk0p33">3rdmodem.img</File>
+      <File type="3rdmodemnvm" partition="/dev/block/mmcblk0p14">3rdmodemnvm.img</File>
+      <File type="3rdmodemnvmback" partition="/dev/block/mmcblk0p15">3rdmodemnvmback.img</File>
+      <File type="boot" partition="/dev/block/mmcblk0p27">boot.img</File>
+      <File type="cache" partition="/dev/block/mmcblk0p34">cache.img</File>
+      <File type="cust" partition="/dev/block/mmcblk0p39">cust.img</File>
+      <File type="dfx" partition="/dev/block/mmcblk0p32">dfx.img</File>
+      <File type="dtimage" partition="/dev/block/mmcblk0p29">dtimage.img</File>
+      <File type="fastboot" partition="/dev/block/mmcblk0p5">fastboot.img</File>
+      <File type="hifi" partition="/dev/block/mmcblk0p26">hifi.img</File>
+      <File type="hisitest0" partition="/dev/block/mmcblk0p35">hisitest0.img</File>
+      <File type="hisitest1" partition="/dev/block/mmcblk0p36">hisitest1.img</File>
+      <File type="hisitest2" partition="/dev/block/mmcblk0p37">hisitest2.img</File>
+      <File type="mcuimage" partition="/dev/block/mmcblk0p3">mcuimage.img</File>
+      <File type="misc" partition="/dev/block/mmcblk0p19">misc.img</File>
+      <File type="modem" partition="/dev/block/mmcblk0p30">modem.img</File>
+      <File type="modem_dsp" partition="/dev/block/mmcblk0p31">modem_dsp.img</File>
+      <File type="modem_om" partition="/dev/block/mmcblk0p17">modem_om.img</File>
+      <File type="modemnvm_backup" partition="/dev/block/mmcblk0p10">modemnvm_backup.img</File>
+      <File type="modemnvm_factory" partition="/dev/block/mmcblk0p6">modemnvm_factory.img</File>
+      <File type="modemnvm_img" partition="/dev/block/mmcblk0p11">modemnvm_img.img</File>
+      <File type="modemnvm_system" partition="/dev/block/mmcblk0p12">modemnvm_system.img</File>
+      <File type="modemnvm_update" partition="/dev/block/mmcblk0p20">modemnvm_update.img</File>
+      <File type="nvme" partition="/dev/block/mmcblk0p7">nvme.img</File>
+      <File type="oeminfo" partition="/dev/block/mmcblk0p8">oeminfo.img</File>
+      <File type="recovery" partition="/dev/block/mmcblk0p28">recovery.img</File>
+      <File type="recovery2" partition="/dev/block/mmcblk0p21">recovery2.img</File>
+      <File type="reserved0" partition="/dev/block/mmcblk0p4">reserved0.img</File>
+      <File type="reserved1" partition="/dev/block/mmcblk0p16">reserved1.img</File>
+      <File type="reserved2" partition="/dev/block/mmcblk0p22">reserved2.img</File>
+      <File type="securetystorage" partition="/dev/block/mmcblk0p13">securetystorage.img</File>
+      <File type="sensorhub" partition="/dev/block/mmcblk0p25">sensorhub.img</File>
+      <File type="splash" partition="/dev/block/mmcblk0p9">splash.img</File>
+      <File type="splash2" partition="/dev/block/mmcblk0p18">splash2.img</File>
+      <File type="system" partition="/dev/block/mmcblk0p38">system.img</File>
+      <File type="teeos" partition="/dev/block/mmcblk0p23">teeos.img</File>
+      <File type="trustfirmware" partition="/dev/block/mmcblk0p24">trustfirmware.img</File>
+      <File type="userdata" partition="/dev/block/mmcblk0p40">userdata.img</File>
+      <File type="vrl" partition="/dev/block/mmcblk0p1">vrl.img</File>
+      <File type="vrl_backup" partition="/dev/block/mmcblk0p2">vrl_backup.img</File>
+    </Files>
+  </Profile>
+  <Profile name="Huawei Mate S" author="philipp900">
+    <Files>
+      <File type="SHA256RSA" filetype="signature">00.SHA256RSA.IMG</File>
+      <File type="CRC" filetype="checksum">01.CRC.IMG</File>
+      <File type="CURVER" filetype="unknown">02.CURVER.IMG</File>
+      <File type="EFI" filetype="unknown">03.EFI.IMG</File>
+      <File type="VERLIST" filetype="unknown">04.VERLIST.IMG</File>
+      <File type="XLOADER" filetype="unknown">05.XLOADER.IMG</File>
+      <File type="3rdmodem" partition="/dev/block/mmcblk0p33">3rdmodem.img</File>
+      <File type="3rdmodemnvm" partition="/dev/block/mmcblk0p14">3rdmodemnvm.img</File>
+      <File type="3rdmodemnvmback" partition="/dev/block/mmcblk0p15">3rdmodemnvmback.img</File>
+      <File type="boot" partition="/dev/block/mmcblk0p27">boot.img</File>
+      <File type="cache" partition="/dev/block/mmcblk0p34">cache.img</File>
+      <File type="cust" partition="/dev/block/mmcblk0p39">cust.img</File>
+      <File type="dfx" partition="/dev/block/mmcblk0p32">dfx.img</File>
+      <File type="dtimage" partition="/dev/block/mmcblk0p29">dtimage.img</File>
+      <File type="fastboot" partition="/dev/block/mmcblk0p5">fastboot.img</File>
+      <File type="hifi" partition="/dev/block/mmcblk0p26">hifi.img</File>
+      <File type="hisitest0" partition="/dev/block/mmcblk0p35">hisitest0.img</File>
+      <File type="hisitest1" partition="/dev/block/mmcblk0p36">hisitest1.img</File>
+      <File type="hisitest2" partition="/dev/block/mmcblk0p37">hisitest2.img</File>
+      <File type="mcuimage" partition="/dev/block/mmcblk0p3">mcuimage.img</File>
+      <File type="misc" partition="/dev/block/mmcblk0p19">misc.img</File>
+      <File type="modem" partition="/dev/block/mmcblk0p30">modem.img</File>
+      <File type="modem_dsp" partition="/dev/block/mmcblk0p31">modem_dsp.img</File>
+      <File type="modem_om" partition="/dev/block/mmcblk0p17">modem_om.img</File>
+      <File type="modemnvm_backup" partition="/dev/block/mmcblk0p10">modemnvm_backup.img</File>
+      <File type="modemnvm_factory" partition="/dev/block/mmcblk0p6">modemnvm_factory.img</File>
+      <File type="modemnvm_img" partition="/dev/block/mmcblk0p11">modemnvm_img.img</File>
+      <File type="modemnvm_system" partition="/dev/block/mmcblk0p12">modemnvm_system.img</File>
+      <File type="modemnvm_update" partition="/dev/block/mmcblk0p20">modemnvm_update.img</File>
+      <File type="nvme" partition="/dev/block/mmcblk0p7">nvme.img</File>
+      <File type="oeminfo" partition="/dev/block/mmcblk0p8">oeminfo.img</File>
+      <File type="recovery" partition="/dev/block/mmcblk0p28">recovery.img</File>
+      <File type="recovery2" partition="/dev/block/mmcblk0p21">recovery2.img</File>
+      <File type="reserved0" partition="/dev/block/mmcblk0p4">reserved0.img</File>
+      <File type="reserved1" partition="/dev/block/mmcblk0p16">reserved1.img</File>
+      <File type="reserved2" partition="/dev/block/mmcblk0p22">reserved2.img</File>
+      <File type="securetystorage" partition="/dev/block/mmcblk0p13">securetystorage.img</File>
+      <File type="sensorhub" partition="/dev/block/mmcblk0p25">sensorhub.img</File>
+      <File type="splash" partition="/dev/block/mmcblk0p9">splash.img</File>
+      <File type="splash2" partition="/dev/block/mmcblk0p18">splash2.img</File>
+      <File type="system" partition="/dev/block/mmcblk0p38">system.img</File>
+      <File type="teeos" partition="/dev/block/mmcblk0p23">teeos.img</File>
+      <File type="trustfirmware" partition="/dev/block/mmcblk0p24">trustfirmware.img</File>
+      <File type="userdata" partition="/dev/block/mmcblk0p40">userdata.img</File>
+      <File type="vrl" partition="/dev/block/mmcblk0p1">vrl.img</File>
+      <File type="vrl_backup" partition="/dev/block/mmcblk0p2">vrl_backup.img</File>
+    </Files>
+  </Profile>
+  <Profile name="Huawei P8 lite" author="linus2014">
+    <Files>
+      <File type="SHA256rsa" filetype="signature">00.SHA256rsa.img</File>
+      <File type="crc" filetype="checksum">01.crc.img</File>
+      <File type="curver">02.curver.img</File>
+      <File type="verlist">03.verlist.img</File>
+      <File type="efi">04.efi.img</File>
+      <File type="fastboot1">05.fastboot1.img</File>
+      <File type="boot" partition="/dev/block/mmcblk0p27">06.boot.img</File>
+      <File type="recovery" partition="/dev/block/mmcblk0p28">07.recovery.img</File>
+      <File type="recovery2" partition="/dev/block/mmcblk0p21">08.recovery2.img</File>
+      <File type="cust" partition="/dev/block/mmcblk0p39">09.cust.img</File>
+      <File type="system" partition="/dev/block/mmcblk0p38">10.system.img</File>
+      <File type="cache" partition="/dev/block/mmcblk0p34">11.cache.img</File>
+      <File type="userdata" partition="/dev/block/mmcblk0p40">12.userdata.img</File>
+      <File type="dtimage" partition="/dev/block/mmcblk0p29">13.dtimage.img</File>
+      <File type="dsp" partition="/dev/block/mmcblk0p31">14.dsp.img</File>
+      <File type="fastboot" partition="/dev/block/mmcblk0p5">15.fastboot.img</File>
+      <File type="hifi" partition="/dev/block/mmcblk0p26">16.hifi.img</File>
+      <File type="mcuimage" partition="/dev/block/mmcblk0p3">17.mcuimage.img</File>
+      <File type="modemimage" partition="/dev/block/mmcblk0p30">18.modemimage.img</File>
+      <File type="modemnvm1" partition="/dev/block/mmcblk0p10">19.modemnvm1.img</File>
+      <File type="teeos" partition="/dev/block/mmcblk0p23">20.teeos.img</File>
+      <File type="trustfirmware" partition="/dev/block/mmcblk0p24">21.trustfirmware.img</File>
+    </Files>
+  </Profile>
+  <Profile name="Huawei Honor 5x (Kiwi-L2X)" author="Sean Hoyt">
+    <File type="md5rsa" filetype="signature">MD5RSA.img</File>
+    <File type="crc" filetype="checksum">CRC.img</File>
+    <File type="amss_ver">AMSS_VER.img</File>
+    <File type="amss_verlist">AMSS_VERLIST.img</File>
+    <File type="crc">CRC.img</File>
+    <File type="oemsbl_ver">OEMSBL_VER.img</File>
+    <File type="oemsbl_verlist">OEMSBL_VERLIST.img</File>
+    <File type="sbl1" partition="/dev/block/mmcblk0p1">SBL1.img</File>
+    <File type="hyp" partition="/dev/block/mmcblk0p2">HYP.img</File>
+    <File type="rpm" partition="/dev/block/mmcblk0p5">RPM.img</File>
+    <File type="tz" partition="/dev/block/mmcblk0p6">TZ.img</File>
+    <File type="aboot" partition="/dev/block/mmcblk0p7">ABOOT.img</File>
+    <File type="misc" partition="/dev/block/mmcblk0p10">MISC.img</File>
+    <File type="modemst1" partition="/dev/block/mmcblk0p11">MODEMST1.img</File>
+    <File type="modemst2" partition="/dev/block/mmcblk0p12">MODEMST2.img</File>
+    <File type="fsg" partition="/dev/block/mmcblk0p13">FSG.img</File>
+    <File type="modem" partition="/dev/block/mmcblk0p14">MODEM.img</File>
+    <File type="boot" partition="/dev/block/mmcblk0p19">BOOT.img</File>
+    <File type="recovery" partition="/dev/block/mmcblk0p20">RECOVERY.img</File>
+    <File type="erecovery" partition="/dev/block/mmcblk0p21">ERECOVERY.img</File>
+    <File type="cache" partition="/dev/block/mmcblk0p22">CACHE.img</File>
+    <File type="cust" partition="/dev/block/mmcblk0p23">CUST.img</File>
+    <File type="system" partition="/dev/block/mmcblk0p24">SYSTEM.img</File>
+    <File type="userdata" partition="/dev/block/mmcblk0p26">USERDATA.img</File>
+  </Profile>
+</Profiles>
+	
